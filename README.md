@@ -10,7 +10,7 @@ Automatic Speech Recognition model for Caribbean accents - Zindi Competition
 
 ## Competition Info
 
-- **Platform**: [Zindi Competition Link]
+- **Platform**: [Zindi Competition Link](https://zindi.africa/competitions/caribbean-voices-hackathon)
 - **Deadline Phase 1**: December 7, 2025
 - **Deadline Phase 2**: December 13, 2025
 - **Evaluation**: Word Error Rate (WER)
@@ -21,7 +21,7 @@ Automatic Speech Recognition model for Caribbean accents - Zindi Competition
 
 ```bash
 # Clone repo
-git clone <repo-url>
+git clone https://github.com/elroy-galbraith/caribbean-asr-hackathon.git
 cd caribbean-asr-hackathon
 
 # Install dependencies
@@ -77,7 +77,7 @@ See `experiments/README.md` for details.
 
 ## Resources
 
-- [Competition Page](https://zindi.africa/competitions/...)
+- [Competition Page](https://zindi.africa/competitions/caribbean-voices-hackathon)
 - [Experiment Tracker](experiments/experiments.csv)
 - Hostinger GPU Access: [Details in docs/setup_instructions.md]
 - [Whisper Documentation](https://github.com/openai/whisper)
@@ -93,18 +93,21 @@ See `experiments/README.md` for details.
 
 ## Week 1 Goals
 
-**Days 1-2 (Thu-Fri)**
+### **Days 1-2 (Thu-Fri)**
+
 - Donahue: Data exploration, quality assessment
 - Chad: Whisper baseline (zero-shot)
 - Elroy: Evaluation framework, metrics tracking
 
-**Days 3-4 (Sat-Sun)**
+### **Days 3-4 (Sat-Sun)**
+
 - All: Review findings, decide split strategy
 - Donahue: Create train/val/holdout splits
 - Chad: Start fine-tuning
 - Elroy: Baseline error analysis
 
-**Days 5-7 (Mon-Wed)**
+### **Days 5-7 (Mon-Wed)**
+
 - Chad: Hyperparameter experiments
 - Donahue: Preprocessing pipeline
 - Elroy: Leaderboard strategy, error patterns
@@ -112,4 +115,4 @@ See `experiments/README.md` for details.
 
 ---
 
-Last updated: November 21, 2024
+Last updated: November 20, 2024

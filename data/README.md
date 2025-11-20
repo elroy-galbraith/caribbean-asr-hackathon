@@ -2,7 +2,7 @@
 
 ## Structure
 
-```
+```txt
 data/
 ├── raw/                    # Original Zindi data (gitignored)
 │   ├── train/
@@ -44,7 +44,7 @@ Split files contain row IDs from Train.csv, one per line.
 
 ## Expected Structure After Download
 
-```
+```txt
 data/raw/train/
 ├── audio/
 │   ├── ID_IJLHYZ.wav
