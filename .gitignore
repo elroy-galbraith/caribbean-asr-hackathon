@@ -1,0 +1,55 @@
+# Data (too large for git)
+data/raw/
+data/processed/
+*.wav
+*.mp3
+*.flac
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+models/
+checkpoints/
+
+# Experiment outputs
+experiments/runs/
+experiments/logs/
+wandb/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+.env
+*.key
+credentials.json
+
+# Temp files
+*.log
+*.tmp
+tmp/
+temp/

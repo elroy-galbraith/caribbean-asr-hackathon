@@ -1,0 +1,2 @@
+exp_id,date,person,model,preprocessing,learning_rate,batch_size,epochs,val_wer,public_lb,private_lb,notes,commit_hash,config_file
+001,2024-11-21,chad,whisper-large-v3,none,,,,,,,Baseline zero-shot,,
