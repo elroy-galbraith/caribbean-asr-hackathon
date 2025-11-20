@@ -5,6 +5,9 @@ transformers>=4.35.0
 datasets>=2.14.0
 accelerate>=0.24.0
 
+# Whisper ASR
+openai-whisper>=20231117
+
 # Audio processing
 librosa>=0.10.0
 soundfile>=0.12.0
