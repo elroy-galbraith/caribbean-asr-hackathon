@@ -5,12 +5,10 @@
 ```txt
 data/
 ├── raw/                    # Original Zindi data (gitignored)
-│   ├── train/
-│   │   ├── audio/
-│   │   └── Train.csv
-│   └── test/
-│       ├── audio/
-│       └── Test.csv
+│   ├── Audio/              # All audio files (train + test)
+│   ├── Train.csv
+│   ├── Test.csv
+│   └── SampleSubmission.csv
 ├── processed/              # Preprocessed audio (gitignored)
 │   ├── train/
 │   └── test/
@@ -22,14 +20,15 @@ data/
 
 ## Download Instructions
 
-1. Go to [Zindi competition page](https://zindi.africa/competitions/...)
-2. Download `Train.zip` and `Test.zip`
-3. Extract to `data/raw/train/` and `data/raw/test/`
+1. Go to [Zindi competition page](https://zindi.africa/competitions/caribbean-voices-hackathon)
+2. Download `Audio.zip`, `Train.csv`, `Test.csv`, and `SampleSubmission.csv`
+3. Place CSVs in `data/raw/`
+4. Extract `Audio.zip` to `data/raw/`
 
 ```bash
 cd data/raw
-unzip Train.zip -d train/
-unzip Test.zip -d test/
+unzip Audio.zip
+# This should create an 'Audio' folder containing all .wav files
 ```
 
 ## Data Splits
@@ -45,24 +44,19 @@ Split files contain row IDs from Train.csv, one per line.
 ## Expected Structure After Download
 
 ```txt
-data/raw/train/
-├── audio/
+data/raw/
+├── Audio/
 │   ├── ID_IJLHYZ.wav
 │   ├── ID_OFIPGR.wav
-│   └── ... (28,000 files)
-└── Train.csv
-
-data/raw/test/
-├── audio/
-│   ├── ID_XXXXX.wav
-│   └── ...
-└── Test.csv
+│   └── ... (Mixed train and test files)
+├── Train.csv
+├── Test.csv
+└── SampleSubmission.csv
 ```
 
 ## Data Overview
 
-- **Training samples**: ~28,000 audio clips
-- **Duration**: ~30 seconds each
+- **Total Audio**: ~4.5 GB
 - **Format**: WAV files
 - **Source**: BBC Caribbean broadcasts
 - **Transcriptions**: Manual human transcriptions in Train.csv

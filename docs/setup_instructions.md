@@ -5,7 +5,7 @@
 ### 1. Clone Repository
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/elroy-galbraith/caribbean-asr-hackathon.git
 cd caribbean-asr-hackathon
 ```
 
@@ -113,4 +113,4 @@ sudo apt-get install ffmpeg
 
 ---
 
-Last updated: November 21, 2024
+Last updated: November 20, 2024
