@@ -1,0 +1,2 @@
+total_samples,train_samples,eval_samples,holdout_samples,train_pct,eval_pct,holdout_pct,random_state,stratification
+19856,14891,2979,1986,74.99496373892023,15.003021756647863,10.002014504431909,42,duration_bin (4 bins based on quartiles)
