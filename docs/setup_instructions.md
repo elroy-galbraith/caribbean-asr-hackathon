@@ -35,9 +35,14 @@ See `data/README.md` for instructions.
 
 ```bash
 # SSH into Hostinger
-ssh username@server-ip
+ssh root@31.97.40.116
+Password:#PGMS@19-6JAm
 
 # Check GPU
+CPU Core 2
+Memory 8 gb
+Disk Space 100 gb
+
 nvidia-smi
 
 # Install dependencies on server
@@ -63,7 +68,7 @@ python src/models/whisper_finetune.py --config config/training_config.yaml
 rsync -avz --exclude 'data/' --exclude '.git/' . username@server:/path/to/project/
 
 # SSH and run
-ssh username@server
+ssh root@31.97.40.116
 cd /path/to/project
 python src/models/whisper_finetune.py --config config/training_config.yaml
 ```
